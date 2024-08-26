@@ -1,0 +1,6 @@
+/.venv
+/auth_data.json
+/crypto_app.log
+/private.pem
+/public.pem
+/__pycache__
