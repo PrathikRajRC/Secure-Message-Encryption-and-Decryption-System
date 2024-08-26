@@ -25,6 +25,7 @@ def rsa_encrypt(message, public_key_data):
     encrypted_message = cipher.encrypt(message.encode('utf-8'))
     return base64.b64encode(encrypted_message).decode('utf-8')
 
+
 def rsa_decrypt(encrypted_message, private_key_data):
     private_key = RSA.import_key(private_key_data)
     cipher = PKCS1_OAEP.new(private_key)

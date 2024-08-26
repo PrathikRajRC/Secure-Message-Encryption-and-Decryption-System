@@ -18,6 +18,7 @@ def create_user(username, password):
     users[username] = password_hash
     save_users(users)
 
+
 def load_users():
     if os.path.exists(AUTH_FILE):
         with open(AUTH_FILE, 'r') as file:

@@ -5,3 +5,4 @@ def setup_logger():
 
 def log_activity(activity):
     logging.info(activity)
+

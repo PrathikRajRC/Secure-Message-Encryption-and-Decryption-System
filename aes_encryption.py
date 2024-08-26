@@ -18,3 +18,4 @@ def aes_decrypt(encrypted_text, key):
     cipher = AES.new(key.encode('utf-8'), AES.MODE_ECB)
     decrypted_padded_text = cipher.decrypt(bytes.fromhex(encrypted_text))
     return unpad(decrypted_padded_text, AES.block_size).decode('utf-8')
+

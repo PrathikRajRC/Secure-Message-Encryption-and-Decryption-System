@@ -17,6 +17,7 @@ class CryptoApp:
         setup_logger()
         self.main_menu()
         
+        
 
     def main_menu(self):
         self.clear_frame()

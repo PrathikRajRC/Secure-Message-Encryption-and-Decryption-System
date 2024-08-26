@@ -8,3 +8,4 @@ def load_key(filename):
             return file.read()
     except FileNotFoundError:
         return None
+
