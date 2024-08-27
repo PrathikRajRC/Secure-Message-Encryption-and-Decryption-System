@@ -69,10 +69,6 @@ _Add screenshots of your GUI here._
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Thanks to the creators of the cryptography libraries used in this project.
