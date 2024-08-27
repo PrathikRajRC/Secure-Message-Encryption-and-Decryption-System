@@ -1,4 +1,4 @@
-# Cryptography Project with Tkinter GUI
+# Secure-Message-Encryption-and-Decryption-System
 
 This project is a Python-based encryption tool that uses AES, RSA, and Caesar Cipher encryption algorithms. It features a graphical user interface (GUI) built with Tkinter, allowing users to easily encrypt and decrypt messages. The project also includes functionalities for key management and error handling.
 
