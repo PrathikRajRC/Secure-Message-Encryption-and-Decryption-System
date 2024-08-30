@@ -3,7 +3,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 
 def generate_aes_key():
-    """Generate a random 16-character AES key."""
+    
     return os.urandom(16).hex()[:16]
 
 def aes_encrypt(plain_text, key):
